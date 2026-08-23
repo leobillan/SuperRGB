@@ -1,0 +1,8 @@
+App(
+    appid="superledrgb",
+    name="SuperLED RGB",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="superledrgb_app",
+    stack_size=1 * 1024,
+    fap_category="Tools",
+)
